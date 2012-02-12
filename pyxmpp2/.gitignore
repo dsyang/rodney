@@ -1,0 +1,16 @@
+*.pyc
+build
+tests/pyxmpp2
+examples/pyxmpp2
+ChangeLog
+MANIFEST
+cl-stamp
+dist/
+pylint.log
+log
+py3-build/
+py3-dist/
+py3-examples/
+py3-tests/
+pyxmpp2/version.py
+pyxmpp2.egg-info

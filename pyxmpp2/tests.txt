@@ -1,0 +1,11 @@
+TEST_USE="network lo-network gsasl" python setup.py test
+running test
+running egg_info
+writing requirements to pyxmpp2.egg-info/requires.txt
+writing pyxmpp2.egg-info/PKG-INFO
+writing top-level names to pyxmpp2.egg-info/top_level.txt
+writing dependency_links to pyxmpp2.egg-info/dependency_links.txt
+reading manifest file 'pyxmpp2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'pyxmpp2.egg-info/SOURCES.txt'
+running build_ext

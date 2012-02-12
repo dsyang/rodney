@@ -1,0 +1,22 @@
+include Makefile
+include COPYING TODO ChangeLog CHANGES README README.WIN32
+include configure.py  build.cfg
+include examples/*.py
+include py3-examples/*.py
+include tests/*.py
+include tests/Makefile
+include tests/data/*
+exclude tests/data/*~
+include utils/*.py
+include doc/*.html
+include doc/Makefile
+include doc/doc-tstamp
+include doc/www/*.html
+include doc/www/*.css
+include doc/www/api/*.css
+include doc/www/api/*.html
+include doc/www/api/private/*
+include doc/www/api/public/*
+include utils/*.py
+include auxtools/htmlmerge.py
+include custom_2to3/*.py
