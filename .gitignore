@@ -1,7 +1,9 @@
 pyxmpp2/
 build/
 ._DS_STORE
+.DS_STORE
 session-key
 gcal.dat
+.cache/
 *.log
 *.pyc
