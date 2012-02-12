@@ -1,0 +1,19 @@
+the app is in chat-rest.py
+
+
+to install:
+
+must supply own facebook app "key" and "secret", google app workflow, and twilio account id & signature (optional)
+look for the 'FILL_THIS_IN' in chat-rest.py
+
+run pip install -r requirements.new.txt to install all the necessary libraries
+
+
+to run:
+python chat-rest.py <fbusername>@chat.facebook.com (-t) (-d)
+
+fbusername is the username you use on facebook (the thing after .com when you visit your timeline http://www.facebook.com/<sheep2>)
+
+-t : optional, turns on texting (must supply own twilio account)
+
+-d : optional, enables debugging

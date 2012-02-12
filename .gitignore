@@ -1,0 +1,5 @@
+pyxmpp2/
+build/
+._DS_STORE
+session_key
+gcal.dat
