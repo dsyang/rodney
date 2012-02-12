@@ -6,7 +6,10 @@ to install:
 must supply own facebook app "key" and "secret", google app workflow, and twilio account id & signature (optional)
 look for the 'FILL_THIS_IN' in chat-rest.py
 
-run pip install -r requirements.new.txt to install all the necessary libraries
+NOTE: there is no pyfacebook in pip, so the library is included.  Also, the pyxmpp2 library had modifications made so the use the included library
+
+
+run pip install -r requirements.new.txt to install all the remaining necessary libraries
 
 
 to run:
