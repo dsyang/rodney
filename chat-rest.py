@@ -249,7 +249,7 @@ def lolz(intext):
              'http://www.fortunecookiemessage.com/', ]
 
     if 'sandwich' in text and 'make' in text or "make me a sandwich" == text:
-        if 'sudo' in text or 'SUDO' in text:
+        if 'sudo' in text:
             return "Of course, right away!"
 	else:
 	    return "NO I WILL NOT MAKE A SANDWICH!!"
